@@ -4,4 +4,8 @@ vim.cmd("set tabstop=4")
 vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
 vim.cmd("set scrolloff=6")
-vim.g.mapleader = " " 
+vim.g.mapleader = " "
+vim.cmd("noremap <C-h> <C-w>h")
+vim.cmd("noremap <C-j> <C-w>j")
+vim.cmd("noremap <C-k> <C-w>k")
+vim.cmd("noremap <C-l> <C-w>l")
